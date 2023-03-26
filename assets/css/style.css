@@ -1,0 +1,270 @@
+/*seção reset Dom*/
+
+*{
+    box-sizing:border-box;
+    font-size:12px;
+    font-family:"Linux Libertine Bold",serif,"Helvetica Neue",helvetica,tahoma,sans-serif;
+    margin:0;
+    padding:0;
+}
+
+body,html{
+    display:grid;
+    
+
+
+}
+p{
+    vertical-align:top;
+}
+
+h1{
+    text-align:start;
+    margin:1px;
+    
+}
+h2{
+  text-align:start;
+   
+    
+}
+
+
+/*seção menu cabeçalho */
+
+header{
+display:flex;
+white-space: nowrap; 
+background-color: #eaecf0;
+height:6rem;
+width:100%;
+}
+
+ header input{
+    display:flex;
+    flex-direction:column;
+    background-color:#fff;
+    color:#000;
+    margin:0 2rem 0 -2rem;
+    margin-top:1rem;
+    margin-left:-30rem;
+    margin-right: 10rem;
+    width:60rem;
+    font-size:18px;
+    height: 2.25em;
+    position:relative;
+    text-align:start;
+    color:#0000;
+    padding-left: 3rem;
+    background-image: url("../imagens/lupa.png");
+    background-repeat: no-repeat;
+    background-position: left 0.2rem center;
+    background-size: 20px 18px;
+    border:solid #f0ecec;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  
+}
+
+
+
+
+figure img:nth-child(2){
+    width: 50px;
+    height:50px;
+}
+img.menu{
+    margin-top: 15px;
+    margin-left: -4rem;
+    float: left;
+    
+}
+
+figure{
+    display:inline-block;
+    vertical-align:top;
+    width:70%;
+    
+   
+    margin:0.6rem 9rem;
+    
+    
+    
+}
+figcaption  {
+    display:inline-block;
+    vertical-align:top;
+    margin:0.5rem;
+    font-size:14px;
+    margin-top:0rem;
+    width: 8.5em;
+    height: 1.125em;
+}  
+strong{
+    font-size:24px;
+  
+}
+
+cite{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:200;
+}
+header nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+header nav ul li{
+    display: inline-flex;
+    font-size:16px;
+    color:blue;
+   
+}
+
+
+
+
+
+header nav ul li:first-child {
+    margin-right: 30px; /* adiciona margem para separar do input */
+    margin-top: 20px;
+    margin-left:0px; 
+    white-space: nowrap; /* adiciona margem para separar do input */
+}
+
+
+header nav ul li:nth-child(2):after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../imagens/pontos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:-8px 20px;
+    white-space: nowrap; 
+    
+}
+
+  
+
+a{
+    color:rgb(26, 0, 139);
+    text-decoration:none;
+}
+
+
+/*seção conteudo principal da pagina */
+
+
+main{
+  
+    margin: 0 12rem;
+    display: block;
+   
+ 
+    
+    
+}
+main nav ul li{
+    list-style: none;
+    text-decoration: none;
+    color:#000;
+
+   vertical-align:text-top; 
+   
+
+}
+
+main section{
+    margin:8rem auto;
+    justify-content:space-around;
+    display: inline-block;
+    background-color:#e1e8e4;
+    height:75%;
+    width:49.6%;
+    padding:0rem 5rem;
+    vertical-align:text-top;
+    
+   
+}
+
+main marquee{
+    display:table-cell;
+    color:#555555;
+    margin: auto;
+    text-aling:left;
+    justify-content:left;
+    background-repeat: no-repeat;
+    background-position: -40px -15px;
+    padding: 25px;
+    vertical-align: middle;
+    font-size: 24px;
+    width:480px;
+    min-height:130px;
+    min-width:30px;
+    padding:15px;
+    overflow:auto;
+    vetical-align:middle;
+    border-bottom: 1px solid #555555; 
+
+}
+main marquee h2{
+    font-size :18px;
+    text-align:center;
+}
+main  h1{
+    display:table-cell;
+    color:#555555;
+    margin:30rem 0rem;
+    text-aling:left;
+    justify-content:left;
+    background-repeat: no-repeat;
+    background-position: -40px -15px;
+    padding: 25px;
+    vertical-align: middle;
+    font-size: 24px;
+    min-height:130px;
+    min-width:80px;
+    padding:15px;
+    overflow:auto;
+    
+    
+    
+}
+main h2{
+    display:block;
+}
+
+main section h3{
+    display:block;
+    margin:20vh 0;
+    color: #555555;
+    font-size: 1.8em;
+    overflow: auto;
+    width:600px;
+    text-align:left;
+   
+   
+    margin:-6rem 18rem 0rem 1rem;
+    padding:3rem;
+
+}
+
+
+/*seção footer */
+
+
+footer{
+    min-height:100px;
+    
+
+}
+
+aside{
+    
+}
+
+
+
+
