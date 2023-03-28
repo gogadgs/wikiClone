@@ -47,14 +47,13 @@ width:100%;
     color:#000;
     margin:0 2rem 0 -2rem;
     margin-top:1rem;
-    margin-left:-30rem;
-    margin-right: 10rem;
-    width:60rem;
+    margin-left:-20rem;
+    margin-right: 12rem;
+    width:70rem;
     font-size:18px;
     height: 2.25em;
     position:relative;
     text-align:start;
-    color:#0000;
     padding-left: 3rem;
     background-image: url("../imagens/lupa.png");
     background-repeat: no-repeat;
@@ -159,10 +158,9 @@ a{
 
 main{
   
-    margin: 0 12rem;
-    display: block;
-   
- 
+    margin: 0 12rem 0 20rem;
+    display: inline-block;
+    justify-content: center;
     
     
 }
@@ -170,7 +168,7 @@ main nav ul li{
     list-style: none;
     text-decoration: none;
     color:#000;
-
+    
    vertical-align:text-top; 
    
 
@@ -193,19 +191,16 @@ main marquee{
     display:table-cell;
     color:#555555;
     margin: auto;
-    text-aling:left;
     justify-content:left;
     background-repeat: no-repeat;
     background-position: -40px -15px;
     padding: 25px;
     vertical-align: middle;
     font-size: 24px;
-    width:480px;
+    width:530px;
     min-height:130px;
     min-width:30px;
-    padding:15px;
     overflow:auto;
-    vetical-align:middle;
     border-bottom: 1px solid #555555; 
 
 }
@@ -217,16 +212,14 @@ main  h1{
     display:table-cell;
     color:#555555;
     margin:30rem 0rem;
-    text-aling:left;
     justify-content:left;
     background-repeat: no-repeat;
     background-position: -40px -15px;
-    padding: 25px;
+    padding: 15px;
     vertical-align: middle;
     font-size: 24px;
     min-height:130px;
     min-width:80px;
-    padding:15px;
     overflow:auto;
     
     
@@ -238,7 +231,6 @@ main h2{
 
 main section h3{
     display:block;
-    margin:20vh 0;
     color: #555555;
     font-size: 1.8em;
     overflow: auto;
